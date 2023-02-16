@@ -10,13 +10,29 @@
   <body>
     <div class="container">
       <h1>Download Time Calculator</h1>
-      <div class="speed">
-        <input type="number" name="Download speed" id="input-speed" t />
-        <select id="type" name="mbps">
-          <option value="mb">MB/s</option>
-          <option value="mbps">Mbps</option>
-        </select>
+      <div class="form">
+        <div class="speed">
+          <input
+            type="number"
+            placeholder="Download speed"
+            id="input-speed"
+            t
+          />
+          <select id="type">
+            <option value="mbps">Mbps</option>
+            <option value="mb-speed">MB/s</option>
+          </select>
+        </div>
+        <div class="size">
+          <input type="number" placeholder="File size" id="file-size" />
+          <select id="unit">
+            <option value="gb">GB</option>
+            <option value="mb-size">MB</option>
+          </select>
+        </div>
+        <button type="button">Calculate</button>
       </div>
+      <div class="result">Result here</div>
     </div>
   </body>
 </html>

@@ -2,3 +2,63 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.container h1 {
+    font-size: 4rem;
+    white-space: nowrap;
+}
+
+.form {
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+}
+
+.speed, .size {
+    padding: 0 0 15px 0;
+    white-space: nowrap;
+}
+
+input {
+    margin-right: 8px;
+}
+
+input, select {
+    font-size: 1.5rem;
+    padding: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+}
+
+select {
+    width: 120px;
+    height: 68px;
+}
+
+button {
+    align-self: center;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
