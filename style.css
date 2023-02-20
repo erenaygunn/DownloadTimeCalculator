@@ -51,9 +51,11 @@ input, select {
 select {
     width: 120px;
     height: 68px;
+    color: black;
 }
 
 button {
+    color: black;
     align-self: center;
     margin-top: 20px;
     padding: 20px;
